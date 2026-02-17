@@ -43,7 +43,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.png"
+            src="/rk-traders/images/hero.png"
             alt="Premium Garlic Farm"
             fill
             className="object-cover opacity-60"
@@ -243,7 +243,7 @@ export default function Home() {
       <section id="contact" className="py-24 bg-white container mx-auto px-4">
         <div className="max-w-4xl mx-auto bg-slate-50 rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
           <div className="bg-green-900 text-white p-12 md:w-2/5 flex flex-col justify-between relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('/pattern.png')] opacity-10"></div>
+            <div className="absolute inset-0 opacity-10"></div>
             <div className="relative z-10">
               <h3 className="text-3xl font-bold mb-2">Get in Touch</h3>
               <p className="text-green-200 text-sm mb-10">Ready to start business? Reach out to us 24/7.</p>
